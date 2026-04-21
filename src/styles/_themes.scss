@@ -1,0 +1,27 @@
+@mixin button-theme($bg-color) {
+  --button-bg: #{$bg-color};
+  --button-hover-bg: #{darken($bg-color, 10%)};
+}
+
+:root {
+  --card-border-color: transparent;
+  --header-bg: #222222;
+  --header-text-color: #fff;
+  --mobile-screen-size: 768px;
+}
+
+[data-theme="original"] {
+  --bg-color: #fff;
+  --text-color: #000;
+  --card-bg: #b3f9dd;
+
+  @include button-theme(#ced5fc);
+}
+
+[data-theme="dark"] {
+  --bg-color: #222222;
+  --text-color: #fff;
+  --card-bg: #222222;
+
+  @include button-theme(#444444);
+}

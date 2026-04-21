@@ -1,0 +1,18 @@
+.custom-btn {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: 1px solid var(--button-bg);
+  transition: all 0.05s linear;
+
+  &:hover {
+    background-color: var(--button-hover-bg) !important;
+    border-color: var(--button-hover-bg) !important;
+    color: var(--text-color) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+}

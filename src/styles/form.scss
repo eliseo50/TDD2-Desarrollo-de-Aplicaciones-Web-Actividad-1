@@ -1,0 +1,24 @@
+.form-add-task {
+  & input {
+    transition: all 0.05s linear;
+    border: 2px solid var(--button-bg) !important;
+    color: var(--text-color) !important;
+    background-color: var(--bg-color) !important;
+
+    &::placeholder {
+      color: var(--text-color) !important;
+      opacity: 0.5;
+    }
+
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: var(--button-hover-bg) !important;
+    }
+  }
+  &__alert {
+    ul {
+      margin: 0 !important;
+    }
+  }
+}
