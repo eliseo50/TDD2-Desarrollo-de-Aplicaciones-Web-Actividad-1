@@ -44,10 +44,10 @@ npm run dev
 
 ## Estructura del Directorio src
 
-- `components/`: Componentes de la interfaz de usuario.
+- `components/`: Componentes de la interfaz de usuario y estilos SCSS por componente.
 - `context/`: Implementación del estado global mediante Zustand.
 - `hooks/`: Hooks personalizados de React.
-- `styles/`: Definiciones de estilos con SCSS.
+- `styles/`: Definiciones de estilos globales con SCSS.
 - `utils/`: Funciones auxiliares.
 - `App.tsx`: Componente raíz de la aplicación.
 - `main.tsx`: Punto de entrada del cliente.
