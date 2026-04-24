@@ -1,4 +1,5 @@
 import CustomButton from "./CustomButton";
+import "./FloatButton.scss";
 
 interface FloatButtonProps {
   text: string;

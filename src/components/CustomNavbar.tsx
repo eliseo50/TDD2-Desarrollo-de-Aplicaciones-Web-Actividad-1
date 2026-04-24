@@ -2,6 +2,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import { useNavigationStore } from "../context/navigationStore";
+import "./CustomNavbar.scss";
 
 export function CustomNavbar() {
   const { setActiveTab, activeTab } = useNavigationStore();

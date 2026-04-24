@@ -5,6 +5,7 @@ import { useState } from "react";
 import { getItemData } from "../utils/getItemData";
 import { isItemValid } from "../utils/isItemValid";
 import { FormAlert } from "./FormAlert";
+import "./AddTaskForm.scss";
 
 interface AddTaskFormProps {
   onAddTask: (

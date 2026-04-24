@@ -1,5 +1,6 @@
 import CustomButton from "./CustomButton";
 import Card from "react-bootstrap/Card";
+import "./ItemCard.scss";
 
 export interface ItemCardProps {
   id: string;
@@ -35,7 +36,7 @@ function ItemCard({
 
 function CardSection({ title, value }: { title: string; value: string }) {
   return (
-    <span className="task-card__section">
+    <span className="card__section">
       <strong>{title}:</strong> {value}
     </span>
   );

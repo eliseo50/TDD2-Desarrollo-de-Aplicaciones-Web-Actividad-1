@@ -8,10 +8,11 @@ import { useIsMobile } from "./hooks/useIsMobile";
 import { CustomNavbar } from "./components/CustomNavbar";
 import { AddTaskForm } from "./components/AddTaskForm";
 import { AddTaskModal } from "./components/AddTaskModal";
-import type { ItemCardProps } from "./components/ItemCard";
 import { useTheme } from "./hooks/useTheme";
 import { useTasksAndGoals } from "./hooks/useTasksAndGoals";
 import { FloatButton } from "./components/FloatButton";
+
+import type { ItemCardProps } from "./components/ItemCard";
 
 function App() {
   const [showModal, setShowModal] = useState(false);

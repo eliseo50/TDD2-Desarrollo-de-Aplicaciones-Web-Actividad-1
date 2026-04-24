@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import "./CustomButton.scss";
 
 interface CustomButtonProps {
   text: string;

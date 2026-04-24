@@ -21,7 +21,6 @@
 [data-theme="dark"] {
   --bg-color: #222222;
   --text-color: #fff;
-  --card-bg: #222222;
-
+  --card-bg: #333333;
   @include button-theme(#444444);
 }
