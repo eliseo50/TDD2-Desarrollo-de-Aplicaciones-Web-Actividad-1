@@ -45,7 +45,7 @@ npm run dev
 ## Estructura del Directorio src
 
 - `components/`: Componentes de la interfaz de usuario.
-- `context/`: Implementación del estado global (TaskContext).
+- `context/`: Implementación del estado global mediante Zustand.
 - `hooks/`: Hooks personalizados de React.
 - `styles/`: Definiciones de estilos con SCSS.
 - `utils/`: Funciones auxiliares.
@@ -54,7 +54,13 @@ npm run dev
 
 ### Estado Global
 
-Se utiliza useContext para gestionar el estado global de la aplicación. El estado incluye la lista de tareas y metas, y las acciones para agregar y eliminar elementos. El estado también incluye la pestaña activa y la acción para cambiarla.
+Se utiliza **Zustand** para gestionar el estado global de la aplicación, migrando desde una implementación previa con `useContext`. El estado se divide en tres **stores**:
+
+- **useTaskStore:** Gestiona la lista de tareas y las acciones para añadir, eliminar o realizar cargas masivas.
+- **useGoalsStore:** Gestiona la lista de metas de forma independiente a las tareas.
+- **useNavigationStore:** Controla la pestaña activa (`tasks` o `goals`) y la navegación de la interfaz.
+
+Para mantener la consistencia y no repetir lógica entre las stores, se utilizan funciones (`addItem`, `addItems`, `removeItem`) que separan las operaciones comunes entre las stores.
 
 ### Componentes
 

@@ -1,11 +1,15 @@
-import { useContext } from "react";
-import { TaskContext } from "../context/TaskContext";
+import { useNavigationStore } from "../context/navigationStore";
+import { useGoalsStore } from "../context/goalsStore";
+import { useTaskStore } from "../context/taskStore";
 
 export function useTasksAndGoals() {
-  const { tasks, addTask, removeTask, goals, addGoal, removeGoal, activeTab } =
-    useContext(TaskContext);
+  const { activeTab } = useNavigationStore();
+  const { tasksList, addTask, removeTask } = useTaskStore();
+  const { goalsList, addGoal, removeGoal } = useGoalsStore();
   const isTasks = activeTab === "tasks";
-  const currentItems = isTasks ? Object.values(tasks) : Object.values(goals);
+  const currentItems = isTasks
+    ? Object.values(tasksList)
+    : Object.values(goalsList);
   const addItem = isTasks ? addTask : addGoal;
   const removeItem = isTasks ? removeTask : removeGoal;
   return { currentItems, addItem, removeItem };

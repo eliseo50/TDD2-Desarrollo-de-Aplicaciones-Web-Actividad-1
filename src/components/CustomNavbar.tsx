@@ -1,14 +1,15 @@
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import { useContext } from "react";
-import { TaskContext } from "../context/TaskContext";
+import { useNavigationStore } from "../context/navigationStore";
 
 export function CustomNavbar() {
-  const { changeActiveTab, activeTab } = useContext(TaskContext);
+  const { setActiveTab, activeTab } = useNavigationStore();
 
   const handleTabChange = (tab: string) => {
-    changeActiveTab(tab);
+    if (tab === "tasks" || tab === "goals") {
+      setActiveTab(tab);
+    }
   };
 
   return (
