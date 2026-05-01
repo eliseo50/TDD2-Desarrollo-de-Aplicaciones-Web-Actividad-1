@@ -15,39 +15,43 @@ Aplicación de lista de tareas (ToDo List) diseñada para la gestión de activid
 
 ## Tecnologías
 
-- React
-- Vite
-- Sass y React-Bootstrap
+- React + Vite
 - TypeScript
-- npm
+- React-Bootstrap
+- Sass
+- Zustand (estado global)
+- Express (backend)
+- pnpm
 
 ## Instalación y Ejecución
 
 Clonación del repositorio:
 
 ```bash
-git clone [url-del-repositorio]
-cd "Actividad 1 - ToDoList"
+git clone https://github.com/eliseo50/TDD2-Desarrollo-de-Aplicaciones-Web-Actividad-1.git
+cd "ToDoList - Client"
 ```
 
 Instalación de dependencias:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Ejecución del proyecto:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Estructura del Directorio src
 
+- `api/`: Llamadas a la API del servidor backend Express.
 - `components/`: Componentes de la interfaz de usuario y estilos SCSS por componente.
 - `context/`: Implementación del estado global mediante Zustand.
 - `hooks/`: Hooks personalizados de React.
 - `styles/`: Definiciones de estilos globales con SCSS.
+- `types/`: Definiciones de tipos TypeScript.
 - `utils/`: Funciones auxiliares.
 - `App.tsx`: Componente raíz de la aplicación.
 - `main.tsx`: Punto de entrada del cliente.
@@ -60,7 +64,7 @@ Se utiliza **Zustand** para gestionar el estado global de la aplicación, migran
 - **useGoalsStore:** Gestiona la lista de metas de forma independiente a las tareas.
 - **useNavigationStore:** Controla la pestaña activa (`tasks` o `goals`) y la navegación de la interfaz.
 
-Para mantener la consistencia y no repetir lógica entre las stores, se utilizan funciones (`addItem`, `addItems`, `removeItem`) que separan las operaciones comunes entre las stores.
+Para mantener la consistencia y no repetir lógica entre las stores, se utilizan funciones helper (`addItem`, `addItems`, `removeItem`) en archivos separados que separan las operaciones comunes entre las stores.
 
 ### Componentes
 
@@ -99,6 +103,10 @@ El botón también se utiliza para cambiar entre el tema claro y oscuro.
 
 Representación visual de cada elemento que muestra su información y permite su eliminación.
 
+#### StatusModal.tsx
+
+Componente modal que muestra el estado de las operaciones asíncronas (cargando, éxito, error) al usuario, proporcionando feedback visual sobre el resultado de las acciones realizadas.
+
 #### FormAlert.tsx
 
 Componente de utilidad para mostrar mensajes de advertencia en la validación de los formularios.
@@ -111,11 +119,15 @@ Custom hook que permite detectar si la interfaz se está visualizando en un disp
 
 #### useTasksAndGoals
 
-Custom hook que permite gestionar la lista de tareas y metas, según la pestaña activa. El hook devuelve la lista de elementos y las funciones para agregar y eliminar elementos.
+Custom hook que permite gestionar la lista de tareas y metas, según la pestaña activa. Devuelve la lista de elementos, las funciones para agregar y eliminar elementos, y el estado de las operaciones (`status`, `error`, `resetStatus`).
 
 #### useTheme
 
 Custom hook que gestiona el sistema de temas de la aplicación. Esta solución fue implementada para permitir el cambio entre el tema "original" (claro) y el tema "dark" (oscuro). El hook aplica el tema seleccionado al documento mediante el atributo `data-theme`, permitiendo que las variables de CSS se actualicen afectando a toda la interfaz.
+
+### Integración con Backend
+
+La aplicación se conecta a un servidor backend **Express** mediante llamadas HTTP a la API REST. Cada store (`taskStore` y `goalsStore`) realiza operaciones de creación, lectura y eliminación de datos a través de endpoints del servidor.
 
 ### Funciones auxiliares
 
