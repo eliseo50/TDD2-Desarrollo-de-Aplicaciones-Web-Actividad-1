@@ -21,7 +21,7 @@ Aplicación de lista de tareas (ToDo List) diseñada para la gestión de activid
 - Sass
 - Zustand (estado global)
 - Express (backend)
-- pnpm
+- npm
 
 ## Instalación y Ejecución
 
@@ -35,13 +35,13 @@ cd "ToDoList - Client"
 Instalación de dependencias:
 
 ```bash
-pnpm install
+npm install
 ```
 
 Ejecución del proyecto:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ## Estructura del Directorio src
