@@ -11,13 +11,15 @@ import { AddTaskModal } from "./components/AddTaskModal";
 import { useTheme } from "./hooks/useTheme";
 import { useTasksAndGoals } from "./hooks/useTasksAndGoals";
 import { FloatButton } from "./components/FloatButton";
+import { StatusModal } from "./components/StatusModal";
 
 import type { ItemCardProps } from "./components/ItemCard";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
   const isMobile = useIsMobile();
-  const { currentItems, addItem, removeItem } = useTasksAndGoals();
+  const { currentItems, addItem, removeItem, status, error, resetStatus } =
+    useTasksAndGoals();
   const { theme, toggleTheme } = useTheme();
 
   const handleAddTask = (data: ItemCardProps) => {
@@ -40,7 +42,7 @@ function App() {
             </AddTaskModal>
           )}
           <Col>
-            <CardList cards={currentItems} onRemoveTask={removeItem} />
+            <CardList cards={currentItems} onRemove={removeItem} />
           </Col>
         </Row>
       </Container>
@@ -51,6 +53,12 @@ function App() {
           callback={() => setShowModal(true)}
         />
       )}
+      <StatusModal
+        show={status !== "idle"}
+        status={status}
+        error={error}
+        onAccept={resetStatus}
+      />
       <FloatButton
         text="Cambiar Tema"
         position="bottom-left"

@@ -7,7 +7,7 @@ export interface ItemCardProps {
   name: string;
   description: string;
   date: string;
-  onRemoveTask: (id: string) => void;
+  onRemove?: (id: string) => void;
 }
 
 function ItemCard({
@@ -15,10 +15,10 @@ function ItemCard({
   name,
   description,
   date,
-  onRemoveTask,
+  onRemove,
 }: ItemCardProps) {
   const handleRemove = () => {
-    onRemoveTask(id);
+    onRemove?.(id);
   };
   return (
     <Card>

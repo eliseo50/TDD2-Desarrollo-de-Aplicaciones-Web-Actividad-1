@@ -1,0 +1,276 @@
+[
+  {
+    "query": "https://getbootstrap.com/docs/5.3/components/alerts/",
+    "url": "https://getbootstrap.com/docs/5.3/components/alerts/",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 5017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "e2e10ce8-03f2-4ac5-a54f-fcf29e35b1d5",
+    "timestamp": 1777606354904
+  },
+  {
+    "query": "https://getbootstrap.com/docs/5.3/components/spinners/",
+    "url": "https://getbootstrap.com/docs/5.3/components/spinners/",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 5017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "5d3f95dc-8cc8-450c-9373-eb45ae671c7a",
+    "timestamp": 1777606352361
+  },
+  {
+    "query": "https://getbootstrap.com/docs/5.3/components/modal/",
+    "url": "https://getbootstrap.com/docs/5.3/components/modal/",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 8017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "9fe747e9-f51b-4143-9dae-08c9d985b904",
+    "timestamp": 1777606349595
+  },
+  {
+    "query": "Bootstrap 5 modal loading spinner error message accept cancel button example",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "613e6456-40cf-474c-95ff-d7616ffc74f6",
+    "timestamp": 1777606346889
+  },
+  {
+    "query": "https://github.com/pmndrs/zustand/discussions/2750",
+    "url": "https://github.com/pmndrs/zustand/discussions/2750",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 15017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "4f8e7d66-90a5-4417-ad51-d556b0291160",
+    "timestamp": 1777605800632
+  },
+  {
+    "query": "\"asyncAction\" zustand set loading error factory function code github",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 2,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "9dde9240-5c0f-4834-a45a-4b7a72e18d0c",
+    "timestamp": 1777605798202
+  },
+  {
+    "query": "zustand \"asyncAction\" factory helper set loading true false error null per action",
+    "provider": "searxng",
+    "tool": "web_search_context",
+    "resultCount": 0,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "4907e656-ad74-48a0-9c0e-1c45f713bdf3",
+    "timestamp": 1777605793186
+  },
+  {
+    "query": "https://pkglog.com/en/blog/zustand-complete-guide-en/",
+    "url": "https://pkglog.com/en/blog/zustand-complete-guide-en/",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 15017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "58804e25-7c90-4a86-befc-24bf339afaa4",
+    "timestamp": 1777605785154
+  },
+  {
+    "query": "zustand official docs async actions loading error status per action pattern example code",
+    "provider": "searxng",
+    "tool": "web_search_context",
+    "resultCount": 59,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "f863d35b-e6b1-414a-94c1-5318bbf26d10",
+    "timestamp": 1777605782622
+  },
+  {
+    "query": "https://dev.to/alexey79/why-isloading-breaks-down-in-complex-react-apps-33bd",
+    "url": "https://dev.to/alexey79/why-isloading-breaks-down-in-complex-react-apps-33bd",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 10017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "947904fa-0611-4d4f-8556-289615d0bcac",
+    "timestamp": 1777605771796
+  },
+  {
+    "query": "zustand asyncAction factory function set loading error lifecycle pattern full code example",
+    "provider": "searxng",
+    "tool": "web_search_context",
+    "resultCount": 30,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "90d51f71-7ec4-4d9c-8913-eaf4a4484316",
+    "timestamp": 1777605768809
+  },
+  {
+    "query": "site:reactdevelopers.org zustand \"asyncAction\" set loading error",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 4,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "a5c34de3-9661-4103-8700-6e653f8addaa",
+    "timestamp": 1777605760629
+  },
+  {
+    "query": "https://reactdevelopers.org/docs/zustand/async-actions",
+    "url": "https://reactdevelopers.org/docs/zustand/async-actions",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 10017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "05d08cbf-bde9-4afc-a8ae-4d370a0f4b0a",
+    "timestamp": 1777605756408
+  },
+  {
+    "query": "zustand \"createAsyncAction\" OR \"asyncAction\" OR \"useAsync\" middleware pattern typescript loading error status",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "e83ad739-a0b6-4f28-aa75-58a7f205aca6",
+    "timestamp": 1777605752980
+  },
+  {
+    "query": "https://github.com/pmndrs/zustand/discussions/1472",
+    "url": "https://github.com/pmndrs/zustand/discussions/1472",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 10017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "10a1765e-bc30-4bf6-8ff9-01c26c95fd13",
+    "timestamp": 1777605747974
+  },
+  {
+    "query": "https://github.com/pmndrs/zustand/discussions/3038",
+    "url": "https://github.com/pmndrs/zustand/discussions/3038",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 10017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "7dad70a0-8a58-4d14-9efd-f9f77c13e2a9",
+    "timestamp": 1777605744623
+  },
+  {
+    "query": "zustand middleware async action lifecycle loading error pattern github pmndrs",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "4623886b-fdd7-43dc-b8b1-b2467739a26f",
+    "timestamp": 1777605741965
+  },
+  {
+    "query": "https://oboe.com/learn/mastering-zustand-for-react-state-management-fqsl2w/building-a-real-world-application-with-zustand-3gvzch",
+    "url": "https://oboe.com/learn/mastering-zustand-for-react-state-management-fqsl2w/building-a-real-world-application-with-zustand-3gvzch",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 6129,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "85a891be-ba3c-4510-a8e2-ff15ef7fb4a2",
+    "timestamp": 1777605738204
+  },
+  {
+    "query": "https://stackoverflow.com/questions/78699398/track-loading-state-with-zustand",
+    "url": "https://stackoverflow.com/questions/78699398/track-loading-state-with-zustand",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 8017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "c5f5be15-f9df-46bb-80cb-362b2991a246",
+    "timestamp": 1777605734457
+  },
+  {
+    "query": "zustand manage action lifecycle loading error status middleware",
+    "provider": "searxng",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "e1009c1c-c895-456f-8c40-c6438c72429f",
+    "timestamp": 1777605731492
+  },
+  {
+    "query": "zustand initialize store with API data \"useStore.setState\" or \"mutate\" pattern",
+    "provider": "tavily",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "b0df2f3e-8651-4fb1-ad59-c171735a29cb",
+    "timestamp": 1777588782970
+  },
+  {
+    "query": "https://github.com/pmndrs/zustand/issues/346",
+    "url": "https://github.com/pmndrs/zustand/issues/346",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 5017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "22a6d4bd-33c7-483b-937e-ac4d1fd3d653",
+    "timestamp": 1777588779710
+  },
+  {
+    "query": "https://www.reddit.com/r/reactjs/comments/16i2kf3/how_do_you_make_sure_initial_state_has_data_with/",
+    "url": "https://www.reddit.com/r/reactjs/comments/16i2kf3/how_do_you_make_sure_initial_state_has_data_with/",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 0,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "45a8fa43-1fcc-420f-8183-d2f92218a4da",
+    "timestamp": 1777588776898
+  },
+  {
+    "query": "https://stackoverflow.com/questions/79244648/initing-a-zustand-store-with-outside-data",
+    "url": "https://stackoverflow.com/questions/79244648/initing-a-zustand-store-with-outside-data",
+    "provider": "fetch",
+    "tool": "web_fetch",
+    "resultCount": 5017,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "72b96f18-c063-409c-9725-037f83a61c73",
+    "timestamp": 1777588771983
+  },
+  {
+    "query": "zustand pass initial state from API fetch hydrate store",
+    "provider": "tavily",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "e53387f3-f17c-4938-8a3f-ff43409b4b2b",
+    "timestamp": 1777588768773
+  },
+  {
+    "query": "vite import.meta.env TypeScript \"ImportMeta\" type error vite 5 6 7 8 types",
+    "provider": "tavily",
+    "tool": "web-search-plus",
+    "resultCount": 10,
+    "cached": false,
+    "directory": "C:\\Users\\Usuario\\dev\\WebDevTDD\\ToDoList - Client",
+    "id": "4bd8bd23-28df-48a3-8663-46802ba90b17",
+    "timestamp": 1777582493746
+  }
+]

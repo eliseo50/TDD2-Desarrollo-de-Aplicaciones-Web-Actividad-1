@@ -1,13 +1,13 @@
 import Stack from "react-bootstrap/Stack";
 import ItemCard from "./ItemCard";
-import type { ItemCardProps } from "./ItemCard";
+import type { Item } from "../types/Item";
 
 function CardList({
   cards,
-  onRemoveTask,
+  onRemove,
 }: {
-  cards: ItemCardProps[];
-  onRemoveTask: (id: string) => void;
+  cards: Item[];
+  onRemove: (id: string) => void;
 }) {
   return (
     <Stack gap={3}>
@@ -18,7 +18,7 @@ function CardList({
           name={card.name}
           description={card.description}
           date={card.date}
-          onRemoveTask={onRemoveTask}
+          onRemove={onRemove}
         />
       ))}
     </Stack>
